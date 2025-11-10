@@ -2,4 +2,4 @@
 
 Just a testing website
 
-[Visit the Docs example](https://username.github.io/example/)
+[Visit the Docs example](https://DiogoFSM.github.io/example/)

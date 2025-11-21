@@ -24,7 +24,7 @@ const config: Config = {
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   //organizationName: 'LAND-IT', // Usually your GitHub org/user name.
-  //projectName: 'landit-docs', // Usually your repo name.
+  //projectName: 'LAND-IT.github.io', // Usually your repo name.
 
   organizationName: 'DiogoFSM',
   projectName: 'DiogoFSM.github.io',

@@ -1,0 +1,8 @@
+{
+  "label": "API LAND IT",
+  "position": 7,
+  "link": {
+    "type": "generated-index",
+    "description": "API para acesso aos dados do LAND IT."
+  }
+}

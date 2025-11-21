@@ -1,33 +1,17 @@
-yangshun:
-  name: Yangshun Tay
-  title: Ex-Meta Staff Engineer, Co-founder GreatFrontEnd
-  url: https://linkedin.com/in/yangshun
-  image_url: https://github.com/yangshun.png
+marcia-matias:
+  name: Márcia B. Matias
+  title: LAND IT - Tech Lead
+  url: https://github.com/MarciaBM
+  image_url: https://github.com/MarciaBM.png
   page: true
   socials:
-    x: yangshunz
-    linkedin: yangshun
-    github: yangshun
-    newsletter: https://www.greatfrontend.com
+    github: MarciaBM
 
-slorber:
-  name: Sébastien Lorber
-  title: Docusaurus maintainer
-  url: https://sebastienlorber.com
-  image_url: https://github.com/slorber.png
-  page:
-    # customize the url of the author page at /blog/authors/<permalink>
-    permalink: '/all-sebastien-lorber-articles'
-  socials:
-    x: sebastienlorber
-    linkedin: sebastienlorber
-    github: slorber
-    newsletter: https://thisweekinreact.com
-
-diogo:
+diogo-moreira:
   name: Diogo Moreira
-  title: LAND IT Team Member
+  title: LAND IT - Team Member
   url: https://github.com/DiogoFSM
   image_url: https://github.com/DiogoFSM.png
+  page: true
   socials:
     github: DiogoFSM

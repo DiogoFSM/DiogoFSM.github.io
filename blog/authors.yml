@@ -23,3 +23,11 @@ slorber:
     linkedin: sebastienlorber
     github: slorber
     newsletter: https://thisweekinreact.com
+
+diogo:
+  name: Diogo Moreira
+  title: LAND IT Team Member
+  url: https://github.com/DiogoFSM
+  image_url: https://github.com/DiogoFSM.png
+  socials:
+    github: DiogoFSM

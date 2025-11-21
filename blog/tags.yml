@@ -17,3 +17,8 @@ hola:
   label: Hola
   permalink: /hola
   description: Hola tag description
+
+release:
+  label: Atualização
+  permalink: /release
+  description: Atualizações do LAND IT

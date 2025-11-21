@@ -2,4 +2,3 @@
 
 Just a testing website
 
-[Visit the Docs example](https://DiogoFSM.github.io/docs-test/)

@@ -91,7 +91,8 @@ const config: Config = {
       title: 'LAND IT',
       logo: {
         alt: 'LAND IT Logo',
-        src: 'images/logo-landit-outlined.png',
+        src: 'images/logo_navbar.png',
+        srcDark: 'images/logo_navbar_branco.png',
       },
       items: [
         {
@@ -156,12 +157,15 @@ const config: Config = {
               html: `
                 <div style="display: flex; flex-direction: column; align-items: start;">
                   <div style="display: flex; flex-direction: row; justify-content: flex-start; width: 100%; gap: 16px; margin-bottom: 12px;">
-                    <img style="height: 100px;" src="/images/aflomacao.png" alt="Aflomação logo" />
-                    <img style="height: 100px;" src="/images/azr.png" alt="AZR logo" />
+                    <img class="logo-light" style="height: 100px;" src="/images/aflomacao.png" alt="Aflomação logo" />
+                    <img class="logo-dark" style="height: 100px;" src="/images/aflomacao-outlined.png" alt="Aflomação logo" />
+                    <img class="logo-light" style="height: 100px;" src="/images/azr.png" alt="AZR logo" />
+                    <img class="logo-dark" style="height: 100px;" src="/images/azr-outlined.png" alt="AZR logo" />
                   </div>
 
                   <div style="display: flex; flex-direction: row; justify-content: flex-start; width: 100%; gap: 16px; margin-bottom: 12px;">
-                    <img style="height: 100px;" src="/images/fct.png" alt="FCT logo" />
+                    <img class="logo-light" style="height: 100px;" src="/images/fct.png" alt="FCT logo" />
+                    <img class="logo-dark" style="height: 100px;" src="/images/fct-white.png" alt="FCT logo" />
                     <img style="height: 100px;" src="/images/macao.png" alt="Mação logo" />
                   </div>
                 </div>

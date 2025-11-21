@@ -16,6 +16,7 @@ const config: Config = {
 
   // Set the production url of your site here
   url: 'https://diogofsm.github.io',
+  // url: 'https://land-it.github.io'
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
@@ -23,11 +24,13 @@ const config: Config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  //organizationName: 'LAND-IT', // Usually your GitHub org/user name.
-  //projectName: 'LAND-IT.github.io', // Usually your repo name.
 
   organizationName: 'DiogoFSM',
   projectName: 'DiogoFSM.github.io',
+
+  //organizationName: 'LAND-IT', // Usually your GitHub org/user name.
+  // projectName: 'LAND-IT.github.io', // Usually your repo name.
+
   deploymentBranch: 'gh-pages',
 
   onBrokenLinks: 'throw',

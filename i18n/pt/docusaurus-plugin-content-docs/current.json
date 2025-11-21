@@ -1,0 +1,50 @@
+{
+  "version.label": {
+    "message": "Next",
+    "description": "The label for version current"
+  },
+  "sidebar.tutorialSidebar.category.Introdução às extensões do LAND IT": {
+    "message": "Introdução às extensões do LAND IT",
+    "description": "The label for category 'Introdução às extensões do LAND IT' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.Introdução às extensões do LAND IT.link.generated-index.description": {
+    "message": "Aprenda a criar extensões para o LAND IT.",
+    "description": "The generated-index page description for category 'Introdução às extensões do LAND IT' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.Módulos de Backend": {
+    "message": "Módulos de Backend",
+    "description": "The label for category 'Módulos de Backend' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.Módulos de Backend.link.generated-index.description": {
+    "message": "Módulos escritos em Java que são executados no back-end do LAND IT.",
+    "description": "The generated-index page description for category 'Módulos de Backend' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.Módulos de Frontend": {
+    "message": "Módulos de Frontend",
+    "description": "The label for category 'Módulos de Frontend' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.Módulos de Frontend.link.generated-index.description": {
+    "message": "Componentes React personalizados, apresentados em diversos pontos da interface do LAND IT.",
+    "description": "The generated-index page description for category 'Módulos de Frontend' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.API LAND IT": {
+    "message": "API LAND IT",
+    "description": "The label for category 'API LAND IT' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.API LAND IT.link.generated-index.description": {
+    "message": "API para acesso aos dados do LAND IT.",
+    "description": "The generated-index page description for category 'API LAND IT' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.Tutorial - Basics": {
+    "message": "Tutorial - Basics",
+    "description": "The label for category 'Tutorial - Basics' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.Tutorial - Basics.link.generated-index.description": {
+    "message": "5 minutes to learn the most important Docusaurus concepts.",
+    "description": "The generated-index page description for category 'Tutorial - Basics' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.Tutorial - Extras": {
+    "message": "Tutorial - Extras",
+    "description": "The label for category 'Tutorial - Extras' in sidebar 'tutorialSidebar'"
+  }
+}

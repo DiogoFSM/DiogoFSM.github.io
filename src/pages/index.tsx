@@ -15,36 +15,11 @@ import { translate } from '@docusaurus/Translate';
 import { Header } from '../components/layouts/Header';
 
 const sections = [
-    { id: "presentation", label: translate({id: "sections.presentation", message: "Apresentação"}), body: <Presentation /> },
-    { id: "multimedia", label: translate({id: "sections.multimedia", message: "Imagens e Vídeos"}), body: <Multimedia /> },
-    { id: "related_projects", label: translate({id: "sections.related_projects", message: "Projetos Relacionados"}), body: <RelatedProjects /> },
-    { id: "team", label: translate({id: "sections.team", message: "Equipa"}), body: <Team /> }
+    { id: "presentation", label: translate({id: "sections.presentation"}), body: <Presentation /> },
+    { id: "multimedia", label: translate({id: "sections.multimedia"}), body: <Multimedia /> },
+    { id: "related_projects", label: translate({id: "sections.related_projects"}), body: <RelatedProjects /> },
+    { id: "team", label: translate({id: "sections.team"}), body: <Team /> }
 ];
-
-function HomepageHeader() {
-  const {siteConfig} = useDocusaurusContext();
-  return (
-    <div className={styles.container}>
-      <header className={clsx('hero hero--primary', styles.heroBanner)}>
-        <div className="container">
-          <Heading as="h1" className="hero__title">
-            {/*siteConfig.title*/}
-            LAND IT
-          </Heading>
-          <p className="hero__subtitle">{siteConfig.tagline}</p>
-          <div className={styles.buttons}>
-            <Link
-              className="button button--secondary button--lg"
-              to="/docs/category/introdução-às-extensões-do-land-it">
-                Começar
-            </Link>
-          </div>
-        </div>
-      </header>
-
-    </div>
-  );
-}
 
 export default function Home(): ReactNode {
   const {siteConfig} = useDocusaurusContext();
@@ -97,11 +72,7 @@ export default function Home(): ReactNode {
     <Layout
       title={`${siteConfig.title}`}
       description="Página de informação do LAND IT.">
-      {/*<HomepageHeader />*/}
       <main>
-        {/*<HomepageFeatures />*/}
-        {/*<div className={styles.headerImage}></div>*/}
-
         <Header />
 
         <div className={styles.container}>

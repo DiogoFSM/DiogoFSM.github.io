@@ -4,52 +4,31 @@ export default function useMultimedia() {
 
     return [
         {
-            name: translate({
-                id: "multimedia.main-page",
-                message: "Edição de Cenários"
-            }),
+            name: translate({id: "multimedia.main-page"}),
             image: 'multimedia/main-menu.png'
         },
         {
-            name: translate({
-                id: "multimedia.stats1",
-                message: "Estatísticas - Áreas de Ocupação do Solo"
-            }),
+            name: translate({id: "multimedia.stats1"}),
             image: 'multimedia/stats.png'
         },
         {
-            name: translate({
-                id: "multimedia.stats2",
-                message: "Estatísticas - Transformações"
-            }),
+            name: translate({id: "multimedia.stats2"}),
             image: 'multimedia/stats2.png'
         },
         {
-            name: translate({
-                id: "multimedia.transformations",
-                message: "Edição de Transformações"
-            }),
+            name: translate({id: "multimedia.transformations"}),
             image: 'multimedia/transformations.png'
         },
         {
-            name: translate({
-                id: "multimedia.addPolygon",
-                message: "Adicição de Polígono à POSP"
-            }),
+            name: translate({id: "multimedia.addPolygon"}),
             image: 'multimedia/add_polygon_to_POSP.mp4'
         },
         {
-            name: translate({
-                id: "multimedia.applyFilters",
-                message: "Aplicação de Filtros"
-            }),
+            name: translate({id: "multimedia.applyFilters"}),
             image: 'multimedia/apply filters.mp4'
         },
         {
-            name: translate({
-                id: "multimedia.polygonTransformation",
-                message: "Definir Transformação de um Polígono"
-            }),
+            name: translate({id: "multimedia.polygonTransformation"}),
             image: 'multimedia/set polygon transformation.mp4'
         }
     ];

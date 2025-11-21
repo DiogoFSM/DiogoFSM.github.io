@@ -35,7 +35,7 @@ export default function RelatedProjects() {
                 <Icon style={{color: item.color}} height={"30px"} icon={item.icon}/>}
                   title={item.title} subTitle={<span>{item.author} <br/> {item.date} </span>}>
                 <p>{item.description}</p>
-                {item.link && <Button label={translate({id:"projects.access", message:"Aceder"})} onClick={() => window.open(item.link, '_blank')}
+                {item.link && <Button label={translate({id:"projects.access"})} onClick={() => window.open(item.link, '_blank')}
                                       className="p-button-text"></Button>}
             </Card>
         );

@@ -27,7 +27,7 @@ const config: Config = {
   //projectName: 'landit-docs', // Usually your repo name.
 
   organizationName: 'DiogoFSM',
-  projectName: 'docs-test',
+  projectName: 'DiogoFSM.github.io',
   deploymentBranch: 'gh-pages',
 
   onBrokenLinks: 'throw',

@@ -9,36 +9,39 @@
 @import "primereact/resources/themes/lara-light-green/theme.css";
 @import "primereact/resources/primereact.min.css";
 
+/* Gerador de paleta de cores: https://docusaurus.io/docs/styling-layout#styling-your-site-with-infima */
 
 :root {
-  --ifm-color-primary: #9bbf86;
-  --ifm-color-primary-dark: #8aac76;
-  --ifm-color-primary-darker: #7a9868;
-  --ifm-color-primary-darkest: #647c55;
-  --ifm-color-primary-light: #aacb99;
-  --ifm-color-primary-lighter: #bad7ad;
-  --ifm-color-primary-lightest: #d1e6c8;
-  --ifm-code-font-size: 95%;
-  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+    --ifm-color-primary: #006000;
+    --ifm-color-primary-dark: #005600;
+    --ifm-color-primary-darker: #005200;
+    --ifm-color-primary-darkest: #004300;
+    --ifm-color-primary-light: #006a00;
+    --ifm-color-primary-lighter: #006e00;
+    --ifm-color-primary-lightest: #007d00;
+    --ifm-code-font-size: 95%;
+    --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
 
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
-  font-weight: 400;
-  --primary-color: #0ab932 !important;
-  --grey: #b6b8b9
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+    line-height: 1.5;
+    font-weight: 400;
+    --primary-color: #0ab932 !important;
+    /*--primary-color: #006000 !important;*/
+    --grey: #b6b8b9
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
 [data-theme='dark'] {
-  --ifm-color-primary: #9bbf86;
-  --ifm-color-primary-dark: #8aac76;
-  --ifm-color-primary-darker: #7a9868;
-  --ifm-color-primary-darkest: #647c55;
-  --ifm-color-primary-light: #aacb99;
-  --ifm-color-primary-lighter: #bad7ad;
-  --ifm-color-primary-lightest: #d1e6c8;
-  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+    --ifm-color-primary: #9bbf86;
+    --ifm-color-primary-dark: #89b471;
+    --ifm-color-primary-darker: #81ae66;
+    --ifm-color-primary-darkest: #69954f;
+    --ifm-color-primary-light: #adca9b;
+    --ifm-color-primary-lighter: #b5d0a6;
+    --ifm-color-primary-lightest: #d0e1c6;
+    --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
 }
+
 
 html[data-theme='light'] .footer {
   background-color: #9bbf86;
@@ -50,20 +53,25 @@ html[data-theme='dark'] .footer {
 
 
 /* Outros tons de verde*/
-
 /*
 :root {
-  --ifm-color-primary: #349f69;
-  --ifm-color-primary-dark: #2f8f5f;
-  --ifm-color-primary-darker: #297f55;
-  --ifm-color-primary-darkest: #216644;
-  --ifm-color-primary-light: #46b77b;
-  --ifm-color-primary-lighter: #67c893;
-  --ifm-color-primary-lightest: #8ad8ab;
-  --ifm-code-font-size: 95%;
-  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
-}
-*/
+    --ifm-color-primary: #9bbf86;
+    --ifm-color-primary-dark: #89b471;
+    --ifm-color-primary-darker: #81ae66;
+    --ifm-color-primary-darkest: #69954f;
+    --ifm-color-primary-light: #adca9b;
+    --ifm-color-primary-lighter: #b5d0a6;
+    --ifm-color-primary-lightest: #d0e1c6;
+    --ifm-code-font-size: 95%;
+    --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+    line-height: 1.5;
+    font-weight: 400;
+    --primary-color: #0ab932 !important;
+    --grey: #b6b8b9
+}*/
+
 
 /*
 [data-theme='dark'] {

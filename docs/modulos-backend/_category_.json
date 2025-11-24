@@ -1,8 +1,0 @@
-{
-  "label": "Módulos de Backend",
-  "position": 5,
-  "link": {
-    "type": "generated-index",
-    "description": "Módulos escritos em Java que são executados no back-end do LAND IT."
-  }
-}
